@@ -18,73 +18,83 @@
 }
 
 .cabecalho-lista-item{
+    color: white;
     display: inline-block;
     margin: 0% 16px;
     font-size: 18px;
     font-family: 'Inter', sans-serif;
-color: white;
 }
 
 
 .escola-imagem{
-    width: 25%;
-   
+    width: 35%;
+    display: inline-block;
+    margin: 4% 120px;
+    align-items: flex-start;
+}
+.escola-intervalo{
+    width: 30%;
+    display: inline-block;
+    margin: 4% 2px;
+    align-items: flex-end;
 }
 
 .escola{
-    background-image: linear-gradient(#4D0371,#994EBC);
+    background-image: linear-gradient(#4D0371,#994EBC); 
     color: white;
     justify-content: center;
     align-items: center;
-    padding: 80px 0;
-    display: flex;
+    padding: 60px 0;
 }
 
 
 
 .escola-div-conteudo{
-width: 40%;
-font-size: 19px;
+width: 50%;
+margin-inline-start: 2cm;
+font-size: 18px;
+color: rgb(255, 255, 255);
 font-family: 'Inter', sans-serif;
-margin-right: 5cm;
 }
 
 .escola-titulo{
     padding: 35px 0;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
 }
 
+.escola-texto-um{
+    font-family: 'Inter', sans-serif;
+}
 
 .estudante-imagem{
     width: 150px;
-    height: 200px;
-    align-items: center;
-    padding: 20px 0;
 }
 
 .estudante-icone{
-    width: 30px;
-    padding: 15px 0;
+    width: 24px;
+    padding: 15px;
 }
 
 .estudante-div{
     text-align: center;
+
 }
 
 .estudante-titulo{
+   color: white;
     text-align: center;
-    padding: 40px 0;
-    background-color: #994EBC;
+    padding: 60px 0;
+    background: #313131;
     font-family: 'Inter', sans-serif;
-    color: white;
 }
 .estudante-todos{
     display: grid;
     grid-template-columns: 22% 22% 22% 22%;
 justify-content: center;
 padding: 15px 0;
-background: #994EBC;
+background: #313131;
 color: white;
-font-family: 'Inter', sans-serif;
 }
 
 .rodape{
@@ -98,11 +108,24 @@ font-family: 'Inter', sans-serif;
    padding: 12px 0;
   width: 4cm;
 }
-
-.estudante-nome{
-    color: white;
+    
+.escola-div-conteudo-emilio{
+    width: 50%;
+    margin-inline-start: 2cm;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
 }
 
+.emilio-imagem{
+    width: 20%;
+    display: inline-block;
+    margin: 4% 120px;
+    align-items: flex-start;
+}
 
+.escola-texto-um-em{
+    color: rgb(255, 255, 255);
+}
 
 
